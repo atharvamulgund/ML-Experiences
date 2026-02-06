@@ -334,7 +334,7 @@ export default function GestureWhiteboardDemo() {
       <div className="flex justify-center gap-3">
         <Button
           variant="outline"
-          className="text-white cursor-pointer"
+          className="cursor-pointer"
           onClick={cameraOn ? stopCamera : startCamera}
         >
           {cameraOn ? (
@@ -346,7 +346,7 @@ export default function GestureWhiteboardDemo() {
         </Button>
         <Button
           variant="outline"
-          className="text-white cursor-pointer"
+          className=" cursor-pointer "
           onClick={handleSaveCanvas}
           disabled={!drawingExists}
         >

@@ -51,14 +51,14 @@ const [activeTab, setActiveTab] = useState<string>("hear");
                 <TabsList className="bg-slate-800/50 border border-slate-700/50 backdrop-blur">
                   <TabsTrigger
                     value="hear"
-                    className="data-[state=active]:bg-linear-to-r data-[state=active]:from-cyan-500 data-[state=active]:to-purple-500 data-[state=active]:text-white transition-all duration-300 cursor-pointer"
+                    className="data-[state=active]:bg-linear-to-r data-[state=active]:from-cyan-500 data-[state=active]:to-purple-500  transition-all duration-300 cursor-pointer text-white!"
                   >
                     <span className="mr-2">🎵</span>
                     Hear
                   </TabsTrigger>
                   <TabsTrigger
                     value="see"
-                    className="data-[state=active]:bg-linear-to-r data-[state=active]:from-cyan-500 data-[state=active]:to-purple-500 data-[state=active]:text-white transition-all duration-300 cursor-pointer"
+                    className="data-[state=active]:bg-linear-to-r data-[state=active]:from-cyan-500 data-[state=active]:to-purple-500 text-white! transition-all duration-300 cursor-pointer"
                   >
                     <span className="mr-2">✋</span>
                     See
